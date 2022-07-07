@@ -36,8 +36,45 @@ nav#header-nav ul li a:hover,nav#header-nav ul li a:active,nav#header-nav ul li.
 .slogan a{max-width: 15.313rem;}
 .slogan a:hover{}
 .hero-img{justify-self: end;}
-.hero-img img{object-fit: cover;width: 100%;height: 100%;}
+.hero-img img{}
 /* Showcase */
 
+/* Services */
+#services{background: var(--primary-color);}
+#services .container{padding: 4rem 0;}
+.service-box{padding: 3.5rem 2.75rem 8.625rem;position: relative;background: #666;width: 33%;max-width: 25.625rem;color: #fff;}
+.service-box h3{font-size: 2rem;line-height: 100%;margin-bottom: 0.938rem;}
+.service-box p{}
+.service-box a{position: absolute;left: 50%;transform: translateX(-50%);bottom: 3.438rem;width: 100%;max-width: 8.12em;}
+.service-box a:hover{}
+/* End Services */
+
+/* About */
+#about{background: #666;}
+#about .container{padding: 4.438rem 0;column-gap: 9%;}
+#about-video{width: 41%;}
+#about-video video{}
+.about-info{width: 41%;color: #fff;}
+.about-info h2{font-size: 3.125rem;line-height: 100%;font-weight: bold;}
+.about-info p{margin: 0.89em 0 1.5em;}
+.about-info a{}
+.about-info a:hover{}
+/* End About */
+
+/* Card5s */
+#cards{}
+#cards .container{padding: 4.438rem 0;}
+.card{padding: 0.625rem 0.625rem 7.563rem;position: relative;background: #666;color: #fff;width: 33%;max-width: 25.625rem;}
+.card figure{margin-bottom: 1.813rem;}
+.card figure img{}
+.card h3{line-height: 100%;margin-bottom: 0.938rem;font-size: 2rem;}
+.card h3 span{}
+.card a{position: absolute;left: 50%;transform: translateX(-50%);bottom: 2.375rem;width: 100%;max-width: 12.688rem;}
+.card a:hover{}
+/* End Cards */
+
 /* Footer */
+footer{background: #666;}
+footer .container{padding: 1.5em 0;}
+footer p{font-size: 1.125rem;color: #fff;}
 /* End Footer */
